@@ -1,0 +1,35 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #f0f0f0; /* Cor de fundo para visualização */
+    padding: 10px 20px; /* Espaçamento interno */
+}
+
+/* Estilo da navegação */
+nav {
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+}
+
+/* Estilo da lista */
+ul {
+    display: flex;
+    list-style: none; /* Remove marcadores de lista */
+}
+
+/* Estilo dos itens da lista */
+li {
+    margin-right: 20px; /* Espaçamento entre os itens do menu */
+}
+
+/* Estilo do link */
+a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #333333; /* Cor do texto dos links */
+}
+
