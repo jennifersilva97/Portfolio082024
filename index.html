@@ -4,71 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Jennifer Silva</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" href="./icons8-tartaruga-64 (2).png" type="image/png" />
 <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
-    <!-- Cabeçalho com navegação -->
-    <meta charset="UTF-8">
+   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo de Navegação</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li> 
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#works">Works</a></li>
-                
-            </ul>
-        </nav>
-    </header>
-    <!-- Seção Home -->
+    <nav class="portfolio__navigation">
+                <a href="#home" class="portfolio__navigation--item">Home</a> <br>
+                 <a href="#about"class="portfolio__navigation--item">About</a>
+                 <a href="#skills"class="portfolio__navigation--item">Skills</a>
+                 <a href="#works"class="portfolio__navigation--item">Works</a>
+                </nav>
+    
+    <main class="portfolio"></main>
+
+    <div class="container">
+        <img src="Assets/Images/foto_inicio.png" alt="foto jennifer" class="portfolio__image">
+        <div class="semi-circle"></div>
+           </div>
+    
+    <h1 class="portfolio__main-heading">I'm Jennifer, Full-Stack Student</h1>
+    <nav class="portfolio__hireme">
+    <a href="" class="button">Portfolio</a>
+    <a href="" class="button">Hire me</a>
+</nav>
+    
+
+
     <section id="home">
-        <div>
-            <h1>Jennifer Silva</h1>
-            <h3>Olá, seja bem vindo ao meu portfólio!</h3>
-
-            <p>Espero que encontre o que procura aqui e se houver qualquer dúvida, fico a disposição para te ajudar</p>
-
-            <br><br><br><br>
-
-            
-            <img src="./Jennifer.jpg.png" alt="Imagem de destaque" style="width: 10%; height: auto;"> 
-        </div>
+       
     </section>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <!-- Seção About -->
-    <section id="about">
+<br><br><br><br>
+ 
+    <section class="portfolio__about" id="about">
         <div>
-            <h2 class="fundoBranco">Sobre Mim</h2>
+            <h2>Sobre Mim</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, laudantium.</p>
         </div>
     </section>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br>
 
     <!-- Seção Skills -->
-    <section id="skills">
+    <section class="portfolio__skills" id="skills">
         <div>
             <h2>Habilidades</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, eligendi?</p>
         </div>
     </section>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br>
 
     <!-- Seção Works -->
-    <section id="works">
+    <section class="portfolio__works" id="works">
         <div>
             <h2>Projetos</h2>
             <br><br>
             <article>
                 <h3>Portfolio</h3>
                 <p> Este é meu primeiro projeto realizado. Feito como projeto final para o Curso de HTML e CSS da Coderhouse</p>
-                <p><a href="https://github.com/jennifersilva97/Portfolio082024" target="_blank">Ver no GitHub</a> | 
+                <p><a href="https://github.com/jennifersilva97/Portfolio082024" target="_blank">Ver no GitHub</a> |
                 <a href="https://seusite.com/projeto1" target="_blank">Visitar o site</a></p>
             </article>
             <br><br><br><br>
@@ -76,7 +80,7 @@
                 <h3>Projeto 2</h3>
                 <br><br>
                 <p>Projeto</p>
-                <p><a href="https://github.com/seu-usuario/projeto2" target="_blank">Ver no GitHub</a> | 
+                <p><a href="https://github.com/seu-usuario/projeto2" target="_blank">Ver no GitHub</a> |
                 <a href="https://seusite.com/projeto2" target="_blank">Visitar o site</a></p>
             </article>
 

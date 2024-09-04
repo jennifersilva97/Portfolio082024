@@ -1,11 +1,113 @@
-body{
-background-color: rgb(213, 205, 205);
-font-size: 30px;
+:root {
+  font-family: "Inter";
 }
-/* Fazer classes é tipo uma base com as características e você cita ela no html para usar as personalizações*/
-.textoGrande {
-    font-size: 60px;
+body {
+  margin: 0;
+  background-color: #ffffff;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.fundoBranco {
-    background-color: whitesmoke;
+.portfolio__navigation {
+  background-color: #171717;
+  width: 1298px;
+  border-radius: 50px ;
+height: 86px;
+text-align: center;
+justify-content: center;
+display: flex;
+font-weight: 700
+
 }
+.portfolio__navigation--item{
+    display: inline;
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+    line-height: 150%;
+    /* essa é o tamanho da distância entre o texto e a parte de cima do botão */
+    padding: 12px 0;
+    /* essa é a distância entre os botões */
+    margin-top: 20px;
+    position: relative;
+    height: 68px;
+    margin: 15px 110px
+    
+    
+}
+ .portfolio__image {
+    padding: 40px 0;
+    display: block;
+    width: 100%;
+    height: 100;
+    height: auto;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+    margin: 0%;
+
+
+ }
+
+ .portfolio__hireme{
+ background-color: #848f239c;
+  width: 298px;
+  border-radius: 50px ;
+height: 43px;
+text-align: center;
+justify-content: center;
+display: flex;}
+
+ .button{
+    display: inline;
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+    line-height: 150%;
+    /* essa é o tamanho da distância entre o texto e a parte de cima do botão */
+    padding: 12px 0;
+    /* essa é a distância entre os botões */
+    margin-top: 10px;
+    position: relative;
+    margin: 0px 40px
+}
+
+.container {
+    position: relative;
+}
+
+.semi-circle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60%; /* Define a altura do semi-círculo */
+    background: #93a171; /* Cor do semi-círculo */
+    border-radius: 100% 100% 0 0; /* Faz o semi-círculo */
+    z-index: 0; /* Coloca o semi-círculo atrás da imagem */
+bottom: 90px;
+}
+
+.portfolio__main-heading {
+    color: #171717;
+    padding: 12px 0;
+}
+
+.portfolio__about {
+    width: 100vw; /* Define a largura para 100% da viewport width */
+    height: 100vh; /* Define a altura para 100% da viewport height */
+    background-color: #171717; /* Cor de fundo para visualização */
+    display: flex; /* Centraliza o conteúdo */
+    justify-content: center; /* Alinha o conteúdo horizontalmente no centro */
+    align-items: center; /* Alinha o conteúdo verticalmente no centro */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    border-radius: 5%;
+ 
+}  
+
+
